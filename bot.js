@@ -21,7 +21,7 @@ client.on('message', async message => {
       m.send(args.replace('[user]', m).replace('[server]', m.guild.name).replace('[sender]', message.author.username))
     })
   }
-})
+});
 
 
 const devs = ["348953140315291649","297777316111712258"];
